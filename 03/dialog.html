@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="dialog.js"></script>
+    <style>
+        /* ダイアログのdivは、最初から見える必要が無いので消しておく。 */
+        #sampleDialog{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="sampleDialog" title="タイトル">
+        これはダイアログです。
+    </div>
+    <button id="dialogButton">ダイアログを表示</button>
+</body>
+</html>

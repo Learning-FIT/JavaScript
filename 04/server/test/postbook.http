@@ -1,0 +1,8 @@
+POST http://127.0.0.1:3000/ HTTP/1.1
+content-type: application/json
+
+{
+    "title":"怪人二十面相",
+    "author":"江戸川乱歩",
+    "overview":"顔変わる"
+}

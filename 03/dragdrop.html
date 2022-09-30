@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="dragdrop.js"></script>
+    <style>
+        .dditem{
+            height:2em;
+            width:500px;
+            border:1px solid #000000;
+        }
+        .droparea{
+            border:1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <div id="firstList" class="droparea">
+        <div class="dditem">項目１</div>
+        <div class="dditem">項目２</div>
+        <div class="dditem">項目３</div>
+    </div>
+    <div style="height:100px;"></div>
+    <div id="secondList" class="droparea">
+        <div class="dditem">項目４</div>
+        <div class="dditem">項目５</div>
+        <div class="dditem">項目６</div>
+    </div>
+</body>
+</html>
